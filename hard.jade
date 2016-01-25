@@ -1,0 +1,20 @@
+doctype html
+html(lang='en')
+  head
+    include views/partials/header.jade
+  body
+    include views/partials/nav.jade
+    .container
+      // Example row of columns
+      .row
+        .col-md-12
+          h2 Difficolt&agrave; Alta
+
+          p Qui ci sono gli esercizi per gli esperti.
+          hr
+      .row
+        #hardOkDiv.col-md-12
+      p
+        include views/partials/footer.jade
+  include views/partials/javascriptIncludes.jade
+  script(src='js/hard.js')

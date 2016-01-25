@@ -1,0 +1,32 @@
+{
+  "name": "waxonwaxoff",
+  "authors": [
+    "P3trur0"
+  ],
+  "description": "Simple application for Treviso Scala Group workshops",
+  "main": "index.html",
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "stamplay",
+    "javascript"
+  ],
+  "license": "MIT",
+  "homepage": "http://waxonwaxoff.stamplayapp.com",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "stamplay-js-sdk": "~1.3.3",
+    "mustache.js": "mustache#~2.2.1",
+    "jquery-Mustache": "~0.2.7",
+    "highlight": "~9.1.0"
+  }
+
+}

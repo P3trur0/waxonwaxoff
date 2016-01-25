@@ -1,0 +1,26 @@
+doctype html
+html(lang='en')
+  head
+    include views/partials/header.jade
+  body
+    include views/partials/nav.jade
+    .container
+      // Example row of columns
+      .row
+        .col-md-12
+          br
+      .row
+        .col-md-12
+          h2 Credits
+
+          p Gli esercizi raccolti in queste pagine sono tratti da 
+            a(href="http://aperiodic.net/phil/scala/s-99/" target="_blank")<b>S-99: Ninety-Nine Scala Problems</b> 
+            |di Phil Gold
+
+          p Il template per la grafica di queste pagine è stato scaricato da 
+            a(href="https://bootswatch.com/" target="_blank") <b>Bootswatch.com</b>
+          hr
+      p
+        include views/partials/footer.jade
+  include views/partials/javascriptIncludes.jade
+  script(src='js/hard.js')

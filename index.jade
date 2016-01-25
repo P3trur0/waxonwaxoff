@@ -1,0 +1,38 @@
+doctype html
+html(lang='en')
+  head
+     include ./views/partials/header.jade
+  body
+    include ./views/partials/nav.jade
+    // Main jumbotron for a primary marketing message or call to action
+    .jumbotron
+      .container
+        h1 Wax on, Wax off
+        p.quotes
+          | &quot;Noi dobbiamo fare patto solenne: io prometto di insegnarti il karate e questa &egrave; la mia parte. Tu prometti di imparare.&quot;
+        h4 Le Workshop series per imparare a programmare in Scala giocandoci insieme!
+        p
+          a.btn.btn-primary.btn-lg(href='http://ideone.com/fork/MAHYb3/', role='button', target='_blank')
+            | Lancia una console Scala su <b>ideone.com</b>
+    .container
+      // Example row of columns
+      .row
+        .col-md-4
+          h2 Difficolt&agrave; Base
+          p Qui ci sono gli esercizi per cominciare.
+          p
+            a.btn.btn-default(href='/base.html', role='button') Vai agli esercizi &raquo;
+        .col-md-4
+          h2 Difficolt&agrave; Media
+          p Qui il gioco comincia a farsi pi&ugrave; interessante...
+          p
+            a.btn.btn-default(href='/mid.html', role='button') Vai agli esercizi &raquo;
+        .col-md-4
+          h2 Difficolt&agrave; alta
+          p Ehi tu, maestro Miyagi, ce la fai a risolvere questi?
+          p
+            a.btn.btn-default(href='/hard.html', role='button') Vai agli esercizi &raquo;
+    
+      include ./views/partials/footer.jade
+    // /container
+  include ./views/partials/javascriptIncludes.jade

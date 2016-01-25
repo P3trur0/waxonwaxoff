@@ -1,0 +1,40 @@
+<script id="exercise" type="text/html">
+	<div class="panel panel-default">
+	  <div class="panel-heading">
+	    <h3 class="panel-title">Esercizio {{counter}} - {{ title }}</h3>
+	  </div>
+	  <div class="panel-body">
+			<div>{{ description }}</div>
+			<br>
+			<div style="margin-bottom: 20px;">
+				<code class="scala">
+					{{#code}}
+	    			{{#.}}
+	        		<div class="codeRow">
+								{{.}}
+							</div>
+	    			{{/.}}
+	  			{{/code}}
+
+					{{^code}}
+						--
+					{{/code}}
+				</code>
+			</div>
+			<p>
+				<a class="btn btn-info pull-right" href="{{ href }}" target="_blank">
+					Vai al codice <span class="glyphicon glyphicon-log-out" aria-hidden="true"></span>
+				</a>
+
+				<div>
+					Tag:
+					{{#tags}}
+			  	<span class="badge">{{tag}}</span>
+					{{/tags}}
+					{{^tags}}
+			  	No tags :(
+					{{/tags}}
+				</div>
+			</p>
+		</div>
+</script>

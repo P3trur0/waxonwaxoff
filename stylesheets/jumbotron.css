@@ -1,0 +1,20 @@
+/* Are you curious, isn't it? It is a basic site built in less than five hours.
+Please improve it as you like.*/
+body {
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+.quotes {
+  font-size: 14px !important;
+  font-style: italic;
+}
+
+.minor-text {
+  font-size: 11px !important;
+  font-style: italic;
+}
+
+.heart {
+  color: rgb(184, 28, 28);
+}
