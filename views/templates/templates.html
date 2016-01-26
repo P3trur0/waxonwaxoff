@@ -1,3 +1,16 @@
+<script id="resources" type="text/html">
+	<ul>
+	  {{#link}}
+	  <li>
+	    <a href={{href}} target="_blank"><b>{{title}}</b></a> - {{description}}
+	  </li>
+	  {{/link}}
+
+	  {{^link}}
+	  {{/link}}
+	</ul>
+</script>
+
 <script id="exercise" type="text/html">
 	<div class="panel panel-default">
 	  <div class="panel-heading">

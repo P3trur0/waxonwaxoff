@@ -14,28 +14,9 @@ html(lang='en')
           h2 Risorse
 
           p Ecco un elenco di materiale utile per approfondire la propria conoscenza di Scala
-          
-          ul
-            li 
-              a(href="http://scala-exercises.47deg.com/" target="_blank") <b>Scala Exercises</b> 
-              |una raccolta di esercizi sulle varie features di Scala 
-            li 
-              a(href="http://scalatimes.com/" target="_blank") <b>Scala Times</b> 
-              |una newsletter settimanale sul linguaggio
-            li 
-              a(href="http://danielwestheide.com/scala/neophytes.html" target="_blank") <b>The Neophyte's Guide to Scala</b> 
-              |una raccolta di post su vari aspetti del linguaggio
-            li 
-              a(href="https://twitter.github.io/scala_school/" target="_blank") <b>Scala School</b> 
-              |un'ottima guida scritta dagli ingegneri di Twitter
-            li 
-              a(href="http://scalatutorials.com/tour/" target="_blank") <b>Scala Tutorials</b> 
-              |un interessante tutorial interattivo per incominciare
-            li 
-              a(href="http://scalapuzzlers.com/" target="_blank") <b>Scala Puzzlers</b> 
-              |una raccolta di <i>Corner Cases</i> del linguaggio
+          #resourcesList
           hr
       p
         include views/partials/footer.jade
   include views/partials/javascriptIncludes.jade
-  script(src='js/hard.js')
+  script(src='js/resources.min.js')
